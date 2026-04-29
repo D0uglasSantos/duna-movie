@@ -1,0 +1,48 @@
+{
+  "name": "duna-movie",
+  "version": "1.0.0",
+  "description": "Landing page imersiva de Duna com Next.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "nextjs",
+    "landing-page",
+    "duna",
+    "shadcn"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.23",
+    "lucide-react": "^1.14.0",
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-hook-form": "^7.74.0",
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "postcss": "^8.5.12",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3"
+  }
+}
