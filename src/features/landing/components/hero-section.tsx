@@ -158,20 +158,23 @@ export function HeroSection({
       <div className="sticky top-0 h-[100svh] overflow-hidden">
 
         {/* Vídeo — mudo, sem controles, scrubbing via GSAP */}
-        <video
-          ref={videoRef}
-          className="absolute inset-0 h-full w-full object-cover will-change-transform"
-          src="/hero-video.mp4"
-          muted
-          playsInline
-          preload="auto"
-          aria-hidden
-          tabIndex={-1}
-        />
+        {/* Wrapper deslocado para a direita; overflow cortado pelo container pai */}
+        <div className="absolute inset-0 translate-x-[20%]">
+          <video
+            ref={videoRef}
+            className="h-full w-full object-cover will-change-transform"
+            src="/hero-video.mp4"
+            muted
+            playsInline
+            preload="auto"
+            aria-hidden
+            tabIndex={-1}
+          />
+        </div>
 
         {/* Overlays */}
         <div className="absolute inset-0 bg-black/52" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/22 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/50 to-transparent" />
 
         {/* Quote lateral */}
         <div
