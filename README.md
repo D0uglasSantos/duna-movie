@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/posterduna.jpg" width="100%" alt="Capa do projeto Duna Movie" />
+  <img src="./public/poster-dune.jpg" width="100%" alt="Capa do projeto Duna Movie" />
 </p>
 
 <h1 align="center">Duna Movie — Landing Page Imersiva</h1>
